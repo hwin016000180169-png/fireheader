@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>김유진</title>
+        <link rel="stylesheet" href="css/next.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <!-- Favicon -->
+        <link
+            rel="icon"
+            href="http://www.merong.co.kr/images/favicon.png"
+            type="image/x-icon"/>
+        <!-- 폰트어썸 -->
+        <script src="https://kit.fontawesome.com/f3c9d07c5d.js"></script>
+    </head>
+
+    <body>
+        <div class="wrap">
+            <header>
+                <!-- 헤더자리 -->
+            </header>
+
+            <div id="hero_sub">
+                <img src="images/sub_banner03.png" alt="">
+                <span class="pc_nav_bg"></span>
+            </div>
+
+            <div class="section_box_sub board_write">
+                <div class="centerbox">
+                    <h2>공지사항</h2>
+
+                    <div class="content">
+                        <!-- 목록2 -->
+                        <div class="board_box">
+                            <div class="write_box">
+                                <ul>
+                                    <li>
+                                        <label for="">구분</label>
+                                        <div class="textbox">
+                                            <label for="gubun1">
+                                                <input type="radio" name="gubun" value="" id="gubun1" checked> 
+                                                공지사항
+                                            </label>
+                                            <label for="gubun2">
+                                                <input type="radio" name="gubun" value=""
+                                                id="gubun2" >
+                                                업데이트
+                                            </label>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <label for="">제목</label>
+                                        <div class="textbox">
+                                            <input type="text" required="required">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <label for="">작성자</label>
+                                        <div class="textbox">
+                                            <input type="text" required class="small_input">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <label for="">내용</label>
+                                        <div class="textbox">
+                                          <textarea name="" id=""></textarea>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <label for="">파일첨부</label>
+                                        <div class="textbox">
+                                            <input type="file">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="btn_box">
+                                    <a href="board_list.html" class="btn">목록</a>
+                                    <button class="cansl"   type="reset">취소</button>
+                                    <button class="btn btn_submit">작성완료</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer></footer>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script/action.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
