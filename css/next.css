@@ -21,6 +21,8 @@ header .pc_nav .gnb li .lnb a {color: #ccc; font-size: 18px; text-align: center;
 header .pc_nav .gnb li .lnb a:hover {color: #fff;}
 
 
+header .pc_nav .gnb:hover  a { opacity: 0.2;}
+header .pc_nav .gnb  li:hover  .true1 { opacity: 1;} 
 
 #hero {width: 100%; overflow: hidden; /* padding-top: 56.25%; */ position: relative;transition: 0.5s;  }
 #hero:before {content: ""; position: absolute; width: 100%; height: 100%; left: 0; top: 0; background: rgba(30,35,55,0.4);}
